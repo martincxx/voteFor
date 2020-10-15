@@ -23,7 +23,6 @@ class worstManagerPoll extends Page {
     viewPoll(){
         if(this.poll.isExisting()){
             this.poll.scrollIntoView()
-            //this.poll.saveScreenshot(`./test/poll_${when}.png`);
         }
     }
     
